@@ -45,7 +45,7 @@ const Web3AuthContext: FC<{ children: ReactNode }> = ({ children }) => {
                     chainConfig: {
                         chainNamespace: CHAIN_NAMESPACES.SOLANA,
                         chainId: "0x3",
-                        rpcTarget: "https://rpc.ankr.com/solana",
+                        rpcTarget: "https://cosmological-snowy-lambo.solana-devnet.discover.quiknode.pro/1bf4f5bb542a2a82e07c2bb609c6142fbcdb94e4/",
                     },
                     uiConfig: {
                         theme: "light",
