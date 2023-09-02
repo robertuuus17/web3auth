@@ -20,7 +20,7 @@ export const LoginContext = createContext({
     getPrivateKey: () => { },
 });
 
-const clientId = "BJ_FV9vXAMowXvgLr16JdJ21kOYuNQWnwv8rafxd2MBg84zfs5hY23QhvpG2r_UzQQvvQtYG0ptbkfUYhIHKIoI";
+const clientId = "BJTbZxMyz49kqs6qv23nG-AEheKz5gWk2gDCAhvpEdQ9n8S2Zuo8wqsGWTAXXXiEPzFWrwHF4eoWmQp7hk5Scis";
 const devnet = "https://api.devnet.solana.com";
 const testRPC = "https://little-crimson-ensemble.solana-devnet.discover.quiknode.pro/fe70ebfea4b2f293b0d829d22ea11b2ec030bc5f/";
 const prodRPC = "https://misty-greatest-aura.solana-mainnet.discover.quiknode.pro/551836f08625e6ccaa217aaa6d0165bea76248bb/";
