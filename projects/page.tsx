@@ -1,9 +1,8 @@
-'use client';
-import React, { useState } from 'react';
+
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import styles from './projects.module.css';
-import { useSession } from 'next-auth/react';
+import React, { useContext, useEffect, useState } from 'react';
 import Image from 'next/image';
 
 const projects = [
