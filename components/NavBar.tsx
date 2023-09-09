@@ -1,6 +1,7 @@
-import { LoginContext } from "@/contexts/Web3AuthContext";
-import { FC, useContext } from "react"
-import styles from "@/styles/NavBar.module.css"
+import React, { FC, useContext } from 'react';
+import Link from 'next/link';
+import { LoginContext } from '@/contexts/Web3AuthContext';
+import styles from './NavBar.module.css';
 
 const NavBar: FC = () => {
 
@@ -8,31 +9,48 @@ const NavBar: FC = () => {
 
     const loginButton = () => {
         return (
-            <button onClick={login}>Log In</button>
-        )
-    }
+            <span className={`${styles.button} ${styles.buttonMargin}`} onClick={login}>
+                Log In
+            </span>
+        );
+    };
 
     const logoutButton = () => {
         return (
-            <button onClick={logout}>Log Out</button>
-        )
-    }
+            <span className={`${styles.button} ${styles.buttonMargin}`} onClick={logout}>
+                Log Out
+            </span>
+        );
+    };
 
     return (
-        <nav>
+        <nav className={`${styles.navbar} ${styles.alignLeft}`}>
             <section>
-                <div className="container">
+                <div>
+                    <br />
+                </div>
+                <div className={`d-flex justify-content-between align-items-center ${styles.links}`}>
+                    <span className={`${styles.brandText}`}>CARBONZERO</span>
                     <div className="row">
                         <div className="col">
-                            <ul>
-                                <li>{provider ? logoutButton() : loginButton()}</li>
+                            <ul className="list-unstyled d-flex align-items-center">
+                                <li>
+                                    {provider ? (
+                                        logoutButton()
+                                    ) : (
+                                        loginButton()
+                                    )}
+                                </li>
+                                <li><Link href="/" className={`${styles.linkMargin} ${styles.smallText}`}>Home</Link></li>
+                                <li><Link href="/about" className={`${styles.linkMargin} ${styles.smallText}`}>About</Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
         </nav>
-    )
-}
+    );
+};
 
-export default NavBar
+export default NavBar;
+

@@ -1,0 +1,38 @@
+/* profile.module.css */
+
+/* Estilos para el contenedor principal de la página de perfil */
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+    min-height: 100vh;
+    /* Mínimo 100% del viewport height */
+    padding: 130px;
+    /* Agrega un espacio alrededor */
+    box-sizing: border-box;
+    /* Incluye el espacio de relleno en el ancho/altura */
+}
+
+
+.header {
+    background-color: #184b6b;
+    color: white;
+    padding: 50px 0;
+    /* Aumenta el espacio en el encabezado */
+    text-align: center;
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    box-sizing: border-box;
+    /* Incluye el espacio de relleno en el ancho */
+    border-radius: 20px;
+    /* Agrega bordes redondeados */
+}
+
+/* Estilos para el contenido del encabezado */
+.headerContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Resto de estilos como antes... */

@@ -8,8 +8,8 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Welcome to Brik!</title>
-                <meta name="description" content="Welcome to Brik" />
+                <title>Welcome to CarbonZero!</title>
+                <meta name="description" content="Welcome to CarbonZero" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

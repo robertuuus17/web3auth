@@ -1,0 +1,88 @@
+/* projects.module.css */
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    /* Para colocar los elementos a la izquierda y a la derecha */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda verticalmente */
+    margin-top: 20px;
+    /* Espacio entre el título y el formulario */
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    /* Ajusta el ancho del contenedor del formulario */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submitButton {
+    margin-top: 10px;
+    width: 200px;
+}
+
+/* Estilos para las cajas de proyectos */
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Hace que las cajas se envuelvan en una nueva línea */
+    justify-content: space-between;
+    /* Espaciado uniforme entre las cajas */
+    width: 100%;
+    /* Asegura que las cajas ocupen todo el ancho disponible */
+    margin-top: 20px;
+}
+
+.projectCard {
+    flex: 0 0 calc(33.33% - 10px);
+    /* Establece el ancho de cada caja a aproximadamente 1/3 del contenedor */
+    background-color: #f0f0f0;
+    /* Color de fondo de las cajas de proyectos */
+    border: 1px solid #ddd;
+    /* Borde alrededor de las cajas */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Espacio entre las cajas */
+    text-align: center;
+}
+
+.projectCard h5 {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.inputRight {
+    width: 200px;
+    /* O el valor que desees */
+    margin-left: 10px;
+    /* Esto moverá los elementos a la derecha */
+    margin-right: 0;
+    /* Asegura que no haya margen a la derecha */
+}
+
+/* projects.module.css */
+.image-container {
+    /* Establece un ancho máximo para la imagen */
+    width: 100%;
+    /* Garantiza que la imagen se ajuste al ancho del contenedor */
+    height: auto;
+    /* La altura se ajustará automáticamente */
+}

@@ -166,9 +166,10 @@ const Web3AuthContext: FC<{ children: ReactNode }> = ({ children }) => {
     return (
         <LoginContext.Provider
             value={{
+                provider,
                 user,
                 wallet,
-                provider,
+
                 balance,
                 login,
                 logout,

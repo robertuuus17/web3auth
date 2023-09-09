@@ -1,0 +1,65 @@
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+    /* Agrega esta línea */
+}
+
+.buttonMargin {
+    margin-bottom: 0px;
+    /* Ajusta el valor según tus necesidades */
+}
+
+.buttonMargin {
+    margin-right: 16px;
+    /* Ajusta el valor según tus necesidades */
+}
+
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NavBar.module.css */
+
+/* ...otros estilos... */
+
+.linkMargin {
+    margin-right: 35px;
+    /* Ajusta el valor según tus necesidades */
+    color: black;
+    /* Cambia el color a negro */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+    font-weight: normal;
+    /* Opcional: si deseas una fuente más fina */
+    font-size: 30px;
+}
+
+/* ...otros estilos... */
+
+
+.brandText {
+    font-weight: bold;
+    color: black;
+    /* Cambia el color según tus preferencias */
+    font-size: 34px;
+    /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-left: 20px;
+    /* Ajusta el valor de margen según tus necesidades */
+}
+
+.smallText {
+    font-size: 14px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    margin-bottom: 10px;
+    /* Agrega un margen inferior para separar del botón */
+    font-size: 18px;
+}
