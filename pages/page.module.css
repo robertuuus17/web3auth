@@ -1,0 +1,368 @@
+/* page.module.css */
+.main {
+    position: relative;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+}
+
+.newImageContainer {
+    flex: 1;
+    margin-left: 10px;
+    /* Agrega esta línea para mover las imágenes a la derecha */
+    text-align: center;
+    /* Centra la imagen horizontalmente */
+}
+
+
+.headerText {
+    font-size: 56px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Añade un margen inferior para separar del párrafo */
+}
+
+/* En tus estilos CSS */
+.signInButton {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+    /* Agrega esta línea */
+}
+
+/* En tus estilos CSS */
+.transparentBox {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Fondo transparente */
+    padding: 10px;
+    /* Espacio interior alrededor del enlace */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    display: inline-block;
+    /* Para que ocupe solo el espacio necesario */
+}
+
+
+
+.headerText2 {
+    font-size: 46px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Añade un margen inferior para separar del párrafo */
+}
+
+.headerText3 {
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+
+.smallText {
+    font-size: 14px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    margin-bottom: 10px;
+    /* Agrega un margen inferior para separar del botón */
+}
+
+.leftAlignText {
+    text-align: left;
+}
+
+.smallerText {
+    font-size: 40px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    /* posicion de las letras */
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+    /* Agrega esta línea */
+}
+
+.buttonMargin {
+    background-color: rgb(20, 0, 27);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: gray;
+    /* Cambiar el color al pasar el mouse por encima */
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.overlayText h1,
+.overlayText p {
+    margin: 0;
+}
+
+#hero {
+    background-image: url('../public/images/bg.png');
+    padding: 200px 20px;
+    /* Ajusta el valor superior (padding-top) según tus necesidades */
+    background-size: cover;
+    background-position: center 45%;
+    /* Cambia la posición vertical para recortar la mitad superior */
+}
+
+
+
+#hero3 {
+    background-image: url('../public/images/bgwallet.png');
+    padding: 390px 40px;
+    /* Ajusta el valor superior (padding-top) según tus necesidades */
+    background-size: cover;
+    background-position: center 45%;
+    /* Cambia la posición vertical para recortar la mitad superior */
+}
+
+/* Estilos para centrar el contenido */
+.centeredSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilos para centrar contenido en cada fila */
+.centeredContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squareBox {
+    width: 1200px;
+    /* Aumenta el ancho de las cajas cuadradas */
+    height: 400px;
+    background-color: #333;
+    /* Cambia el color a gris oscuro (#333) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.column1 {
+    background-color: #333;
+    /* Cambia el color a gris oscuro (#333) */
+}
+
+.column2 {
+    background-color: #333;
+
+    /* Cambia el color a gris oscuro (#333) */
+}
+
+.column1 .image,
+.column1 .title,
+.column1 .description,
+.column2 .image,
+.column2 .title,
+.column2 .description {
+    margin-left: 10%;
+    /* Ajusta el margen izquierdo según tus preferencias */
+}
+
+
+.rectangle {
+    width: 1200px;
+    height: 400px;
+    background-color: #64b5f6;
+    margin: 10px auto;
+}
+
+/* Estilos para el nuevo diseño del rectángulo */
+.newRectangle {
+    width: 1189px;
+    height: 400px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 0px solid #ccc;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.newImage {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.newContent {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.newText {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Agrega el estilo para el fondo del rectángulo */
+.rectangleBackground {
+    background-image: url('../public/images/rectangulo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Nuevo estilo para texto negro en columna 2 */
+.blackText {
+    color: rgb(29, 28, 28);
+}
+
+.blackBox {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/public/images/path_to_your_black_image.jpg');
+    background-size: cover;
+}
+
+.blackBox2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-size: cover;
+    background-color: #000;
+    /* Cambia este valor al color que desees */
+}
+
+
+
+/* Ajusta estilos para el fondo azul */
+.blueBox {
+    background: linear-gradient(to bottom, rgba(146, 196, 255, 0.7), rgba(146, 196, 255, 0.3)), url('/public/images/path_to_your_blue_image.jpg');
+    background-size: cover;
+}
+
+/* Estilo para el texto dentro del rectángulo */
+.rectangleText {
+    font-size: 16px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    /* Cambia el color del texto si es necesario */
+}
+
+/* Estilo para el título del rectángulo */
+.rectangleTitle {
+    font-size: 24px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    /* Puedes ajustar el peso de la fuente */
+    margin-top: 0px;
+    /* Agrega espacio entre la imagen y el título */
+    color: white;
+    /* Cambia el color del título si es necesario */
+}
+
+/* En tu archivo de estilos (styles.css) */
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente los elementos en el contenedor */
+}
+
+.newImageContainer {
+    flex: 1;
+    /* La imagen ocupa todo el espacio disponible a la izquierda */
+    text-align: center;
+    /* Centra la imagen horizontalmente */
+}
+
+.newImage {
+    max-width: 10%;
+    height: auto;
+
+}
+
+.newTextContainer {
+    flex: 1;
+    padding: 20px;
+
+}
+
+/* En tu hoja de estilos CSS */
+.coolLinkContainer {
+    background-color: #1c728e;
+    /* Azul */
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.coolLink {
+    color: #ffffff;
+    /* Blanco */
+    font-size: 24px;
+    /* Tamaño de fuente más grande */
+    /* Fuente más gruesa */
+    text-decoration: none !important;
+    /* Elimina el subrayado */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.coolLink:hover {
+    background-color: #2e5975;
+    /* Azul más oscuro al pasar el ratón */
+    color: #ffffff;
+    /* Blanco */
+}
