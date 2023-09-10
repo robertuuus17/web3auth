@@ -54,7 +54,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={styles.coolLinkContainer}>
-                        <Link href="/projects" className={styles.coolLink}>Future available projects</Link>
+                        <Link href="/profile/page" className={styles.coolLink}>Future available projects</Link>
                     </div>
                 </div>
             </section>

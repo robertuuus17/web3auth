@@ -5,7 +5,7 @@ import MainLayout from '@/components/MainLayout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
 
-export default function Home() {
+export default function ProfilePage() {
     const { wallet, provider, balance, getPrivateKey } = useContext(LoginContext);
     const [privateKey, setPrivateKey] = useState<string | null>(null); // Cambiar null a string | null
 
