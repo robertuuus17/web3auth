@@ -41,8 +41,8 @@ const NavBar: FC = () => {
                                         loginButton()
                                     )}
                                 </li>
-                                <li><Link href="./projects" className={`${styles.linkMargin} ${styles.smallText}`}>Projects</Link></li>
-                                <li><Link href="/about" className={`${styles.linkMargin} ${styles.smallText}`}>About</Link></li>
+                                <li><Link href="/projects/page" className={`${styles.linkMargin} ${styles.smallText}`}>Projects</Link></li>
+                                <li><Link href="/about/page" className={`${styles.linkMargin} ${styles.smallText}`}>About</Link></li>
                             </ul>
                         </div>
                     </div>
