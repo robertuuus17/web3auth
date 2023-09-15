@@ -4,12 +4,17 @@ import { LoginContext } from '@/contexts/Web3AuthContext';
 import MainLayout from '@/components/MainLayout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
+import { getWalletFromCookies } from '../../js/methods'
 
 export default function ProfilePage() {
-    const { wallet, provider, balance, getPrivateKey } = useContext(LoginContext);
+    const { provider, balance, getPrivateKey } = useContext(LoginContext);
+    const [wallet, setWallet] = useState<string | undefined>(getWalletFromCookies())
     const [privateKey, setPrivateKey] = useState<string | null>(null); // Cambiar null a string | null
 
     useEffect(() => {
+        const wallet = getWalletFromCookies()
+        setWallet(wallet)
+        console.log(wallet)
         // Obtener el privateKey una vez que el componente se monta (si el usuario está autenticado)
         if (provider) {
             handleGetPrivateKey();
@@ -36,7 +41,7 @@ export default function ProfilePage() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <p>{provider ? `User wallet: ${wallet}` : 'You need to log in'}</p>
+                            <p>{provider ? `User wallet: ${getWalletFromCookies() as string}` : 'You need to log in'}</p>
                             {provider && balance !== null && (
                                 <p>User balance: {balance}</p>
                             )}

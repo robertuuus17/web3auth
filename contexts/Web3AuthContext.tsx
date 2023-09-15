@@ -6,6 +6,8 @@ import { OpenloginAdapter } from "@web3auth/openlogin-adapter";
 import RPC from "@/pages/api/solanaRPC";
 // Web3
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
+import Cookies from 'js-cookie';
+
 
 export const LoginContext = createContext({
     provider: null,
@@ -107,7 +109,11 @@ const Web3AuthContext: FC<{ children: ReactNode }> = ({ children }) => {
                 setWallet(address[0])
                 setBalance(Number(balance) / LAMPORTS_PER_SOL)
 
-                console.log(provider)
+                Cookies.set('userData', JSON.stringify(user));
+                Cookies.set('wallet', address[0]);
+                const storedWallet = Cookies.get('wallet');
+
+                console.log("☺️☺️☺️☺️☺️", storedWallet)
 
             } catch (error) {
                 console.error(error);
@@ -169,7 +175,6 @@ const Web3AuthContext: FC<{ children: ReactNode }> = ({ children }) => {
                 provider,
                 user,
                 wallet,
-
                 balance,
                 login,
                 logout,
