@@ -68,6 +68,7 @@ export default function Home() {
                         </div>
                     </div>
 
+
                     <div className="row">
                         <div className="col d-flex align-items-center offset-md-1">
                             <div className="text-center">
