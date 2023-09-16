@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "eslint:recommended",
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": "off",
+    // ... otras reglas ...
+  }
 }
