@@ -10,8 +10,8 @@ import Cookies from 'js-cookie';
 
 
 export const LoginContext = createContext({
-    provider: null,
-    user: null,
+    provider: null as any,
+    user: null as any,
     wallet: "",
     balance: 0,
     login: () => { },
