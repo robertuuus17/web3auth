@@ -11,6 +11,11 @@
     /* Agrega esta línea */
 }
 
+.NavBar .links a {
+    text-decoration: none;
+}
+
+
 .buttonMargin {
     margin-bottom: 0px;
     /* Ajusta el valor según tus necesidades */

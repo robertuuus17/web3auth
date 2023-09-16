@@ -4,7 +4,6 @@ import { LoginContext } from '@/contexts/Web3AuthContext';
 import styles from './NavBar.module.css';
 
 const NavBar: FC = () => {
-
     const { login, logout, provider } = useContext(LoginContext);
 
     const loginButton = () => {
@@ -30,7 +29,9 @@ const NavBar: FC = () => {
                     <br />
                 </div>
                 <div className={`d-flex justify-content-between align-items-center ${styles.links}`}>
-                    <span className={`${styles.brandText}`}>CARBONZERO</span>
+                    <Link href="/">
+                        <span className={`${styles.brandText}`}>CARBONZERO</span>
+                    </Link>
                     <div className="row">
                         <div className="col">
                             <ul className="list-unstyled d-flex align-items-center">
@@ -54,4 +55,5 @@ const NavBar: FC = () => {
 };
 
 export default NavBar;
+
 
