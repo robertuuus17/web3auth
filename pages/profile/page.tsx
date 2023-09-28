@@ -40,18 +40,26 @@ export default function ProfilePage() {
                 <hr />
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-                            <p>{provider ? `User wallet: ${getWalletFromCookies() as string}` : 'You need to log in'}</p>
-                            {provider && balance !== null && (
-                                <p>User balance: {balance}</p>
-                            )}
-                            {provider && privateKey !== null && (
-                                <p>User private key: {privateKey}</p>
-                            )}
+                        <div className={styles.profileContainer}>
+                            <div className={styles.header}>
+                                {/* Encabezado */}
+                                <div className="col">
+                                    <p>{provider ? `User wallet: ${getWalletFromCookies() as string}` : 'You need to log in'}</p>
+                                    {provider && balance !== null && (
+                                        <p>User balance: {balance}</p>
+                                    )}
+                                    {provider && privateKey !== null && (
+                                        <p>User private key: {privateKey}</p>
+                                    )}
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
         </MainLayout>
     );

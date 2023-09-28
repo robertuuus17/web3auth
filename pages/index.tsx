@@ -132,7 +132,7 @@ export default function Home() {
                         <a href="https://studio.metaplex.com/project/carbonzero--early-adopter" className={styles.buttonBuy} style={{
                             position: 'absolute', // Agrega posición relativa
                             marginTop: '360px',    // Ajusta el margen superior para mover hacia abajo
-                            marginLeft: '-1205px',   // Ajusta el margen izquierdo para mover a la izquierda
+                            marginLeft: '-1135px',   // Ajusta el margen izquierdo para mover a la izquierda
                             backgroundColor: 'white',
                             color: 'black',
                             textDecoration: 'none',

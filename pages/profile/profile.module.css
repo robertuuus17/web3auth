@@ -6,8 +6,8 @@
     flex-direction: column;
     align-items: center;
     /* Centra el contenido horizontalmente */
-    min-height: 100vh;
-    /* Mínimo 100% del viewport height */
+    height: 800px;
+    /* 800px de alto */
     padding: 130px;
     /* Agrega un espacio alrededor */
     box-sizing: border-box;
@@ -16,16 +16,16 @@
 
 
 .header {
-    background-color: #184b6b;
+    background-color: #071620;
     color: white;
-    padding: 50px 0;
+    padding: 300px 0;
     /* Aumenta el espacio en el encabezado */
     text-align: center;
-    width: 100%;
+    width: 120%;
     /* Ocupa todo el ancho disponible */
     box-sizing: border-box;
     /* Incluye el espacio de relleno en el ancho */
-    border-radius: 20px;
+    border-radius: 15px;
     /* Agrega bordes redondeados */
 }
 
