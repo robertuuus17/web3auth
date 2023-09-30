@@ -116,7 +116,7 @@ export default function Home() {
                         <div className="col-12 col-md-6">
                             <h1>
                                 Ready to make a difference? <br /> You can support the environment and get rewarded
-                            </h1><br />
+                            </h1><br /><hr />
                             <p className={`${styles.description} ${styles.whiteText}`}>
                                 For every project that is launched on CarbonZero you will get a drop as a reward <br />
                                 and will automatically arrive in the Wallet with which you acquire the membership.
@@ -125,14 +125,14 @@ export default function Home() {
                         <div className="col-12 col-md-6">
                             <div className="col-md-6">
                                 <div className={styles.carbonTokenImage} style={{
-                                    marginLeft: '70px'
+                                    marginLeft: '57px'
                                 }}></div>
                                 <div>
                                     <a
                                         href="https://studio.metaplex.com/project/carbonzero--early-adopter" className={styles.buttonBuy} style={{
-                                            position: 'absolute', // Agrega posición relativa
-                                            marginTop: '20px',    // Ajusta el margen superior para mover hacia abajo
-                                            marginLeft: '118px',   // Ajusta el margen izquierdo para mover a la izquierda
+                                            position: 'absolute',
+                                            marginTop: '20px',
+                                            marginLeft: '105px',
                                             backgroundColor: 'white',
                                             color: 'black',
                                             textDecoration: 'none',
