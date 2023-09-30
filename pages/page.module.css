@@ -381,3 +381,47 @@
     background-position: center center;
 
 }
+
+.section {
+    padding: 100px 20px;
+}
+
+.featuresCard {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.featuresCard img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#feature1 {
+    background-color: #071013;
+    color: #ffffff;
+}
+
+#feature2 {
+    background: linear-gradient(to bottom, rgba(146, 196, 255, 0.7), rgba(146, 196, 255, 0.3)), url('/public/images/path_to_your_blue_image.jpg');
+    background-size: cover;
+}
+
+#feature3 {
+    background-image: url('../public/images/rectangulo.webp')
+}
+
+#feature4 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#grisStyle {
+    color: #9f9b9b;
+}
