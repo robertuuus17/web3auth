@@ -150,20 +150,18 @@ export default function Home() {
                         </div>
 
                     </div>
+                    <div className={styles.blackBox2} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '120%', zIndex: -1 }}>
+                    </div>
                 </div>
-                <div className={styles.blackBox2} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '140%', zIndex: -1 }}></div>
+
+                <br />
             </section>
 
-
-
-
-
-
-            <br /><br /><br /><br /><br /><br /> <br />
-
-
             <section className={styles.centeredSection}>
-                <div className={`row ${styles.centeredContent}`}>
+                <br />
+                <br />
+                <br />
+                <div className="row">
                     <div className="col d-flex flex-column align-items-center">
                         <br /> <br />
                         <h1 className={`${styles.headerText2} ${styles.largeText} ${styles.smallerText}`} style={{ marginTop: '160px', marginBottom: '30px' }}>

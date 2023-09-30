@@ -4,7 +4,7 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     margin-top: 20px;
     text-align: right;
@@ -22,7 +22,7 @@
 }
 
 .buttonMargin {
-    margin-right: 16px;
+    margin-right: 6px;
     /* Ajusta el valor según tus necesidades */
 }
 
@@ -37,7 +37,7 @@
 /* ...otros estilos... */
 
 .linkMargin {
-    margin-right: 35px;
+    margin-right: 20px;
     /* Ajusta el valor según tus necesidades */
     color: black;
     /* Cambia el color a negro */
@@ -45,7 +45,7 @@
     /* Elimina el subrayado del enlace */
     font-weight: normal;
     /* Opcional: si deseas una fuente más fina */
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* ...otros estilos... */
@@ -55,7 +55,7 @@
     font-weight: bold;
     color: black;
     /* Cambia el color según tus preferencias */
-    font-size: 28px;
+    font-size: 25px;
     /* Ajusta el tamaño de fuente según tus necesidades */
     margin-left: 20px;
     text-decoration: none;
@@ -63,9 +63,8 @@
 }
 
 .smallText {
-    font-size: 14px;
+    font-size: 17px;
     /* Ajusta el tamaño de fuente según tus preferencias */
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     /* Agrega un margen inferior para separar del botón */
-    font-size: 18px;
 }
