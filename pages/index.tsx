@@ -48,7 +48,7 @@ export default function Home() {
                             <p className={styles.smallText}>In a transparent and secure way through the implementation <br /> of blockchain technology.</p>
                         </div>
 
-                        <div className="col-4 text-end" style={{ position: 'absolute', top: '160px', left: '1140px' }}>
+                        <div className="col-4 text-end d-none d-lg-block" style={{ position: 'absolute', top: '160px', left: '1040px' }}>
                             <Image src="/images/mockup.png" alt='Mockup' width={450} height={650} />
                             <br />
                         </div>
@@ -110,40 +110,50 @@ export default function Home() {
 
 
             <section id={styles.hero2} style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
-                <div style={{ marginLeft: '150px' }}>
-                    <Image src="/images/nftmarco.png" alt='abajo' width={356} height={356} />
-                </div>
-                <div className='row'>
-                    <div className="col d-flex flex-column align-items-center">
-                        <h1 className={`${styles.headerText2} ${styles.largeText}`} style={{
-                            position: 'relative', // Mantén la posición relativa
-                            marginTop: '90px',    // Ajusta la posición vertical hacia abajo en píxeles
-                            marginLeft: '150px',   // Ajusta la posición horizontal hacia la derecha en píxeles
-                            color: 'white',        // Cambia el color del texto a blanco
-                            fontSize: '44px',
-                            fontWeight: '400'       // Ajusta el tamaño de fuente a 48px para que coincida con el segundo bloque de texto
-                        }}>
-                            Ready to make a difference? You <br />can support the environment and<br />and get rewarded
-                        </h1>
-                        <p style={{ color: 'white', fontSize: '18px', marginTop: '20px' }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="text-center">
+                                <h1 className={`${styles.headerText2} ${styles.largeText} mt-md-5`} style={{
+                                    position: 'relative',
+                                    marginTop: '90px',
+                                    marginLeft: '100px',
+                                    color: 'white',
+                                    fontSize: '44px',
+                                    fontWeight: '400'
+                                }}>
+                                    Ready to make a difference?  <br /> You can support the environment and<br />and get rewarded
+                                </h1>
+                                <p style={{ color: 'white', fontSize: '18px', marginTop: '20px' }}> </p>
+                                <br />
+                                <br />
 
-                        </p>
-                        <br />
-                        <a href="https://studio.metaplex.com/project/carbonzero--early-adopter" className={styles.buttonBuy} style={{
-                            position: 'absolute', // Agrega posición relativa
-                            marginTop: '360px',    // Ajusta el margen superior para mover hacia abajo
-                            marginLeft: '-1135px',   // Ajusta el margen izquierdo para mover a la izquierda
-                            backgroundColor: 'white',
-                            color: 'black',
-                            textDecoration: 'none',
-                            padding: '10px 30px',
-                            borderRadius: '15px',
-                            fontWeight: '600'
-                        }}>BUY FOUNDER NFT</a>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div style={{ marginLeft: '150px' }}>
+                                <Image src="/images/nftmarco.png" alt='abajo' width={356} height={356} />
+                            </div>
+                            <div>
+                                <a href="https://studio.metaplex.com/project/carbonzero--early-adopter" className={styles.buttonBuy} style={{
+                                    position: 'absolute', // Agrega posición relativa
+                                    marginTop: '9px',    // Ajusta el margen superior para mover hacia abajo
+                                    marginLeft: '215px',   // Ajusta el margen izquierdo para mover a la izquierda
+                                    backgroundColor: 'white',
+                                    color: 'black',
+                                    textDecoration: 'none',
+                                    padding: '10px 30px',
+                                    borderRadius: '15px',
+                                    fontWeight: '600'
+                                }}>BUY FOUNDER NFT</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div className={styles.blackBox2} style={{ position: 'absolute', top: 0, left: 0, width: '140%', height: '140%', zIndex: -1 }}></div>
+                <div className={styles.blackBox2} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '140%', zIndex: -1 }}></div>
             </section>
+
 
 
 
