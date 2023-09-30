@@ -42,7 +42,7 @@ const NavBar: FC = () => {
                                 </li>
                                 <li><Link href="/projects/page" className={`${styles.linkMargin} ${styles.smallText}`}>Projects</Link></li>
                                 {/*  <li><Link href="/about/page" className={`${styles.linkMargin} ${styles.smallText}`}>About</Link></li>  */}
-                                <li><Link href="/profile/page" className={`${styles.linkMargin} ${styles.smallText}`}>Profile</Link></li>
+                                {/* <li><Link href="/profile/page" className={`${styles.linkMargin} ${styles.smallText}`}>Profile</Link></li> */}
                             </ul>
                         </div>
                     </div>

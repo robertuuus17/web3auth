@@ -45,7 +45,10 @@ export default function Home() {
                                 Invest in the environment<br />from just $10
                             </h1>
                             <p></p>
-                            <p className={styles.smallText}>In a transparent and secure way through the implementation <br /> of blockchain technology.</p>
+                            <p className={styles.smallText}>In a transparent and secure way through the implementation <br /> of blockchain technology.</p><br />
+                            <div className={styles.coolLinkContainer}>
+                                <Link href="/profile/page" className={styles.coolLink}>Future available projects</Link>
+                            </div>
                         </div>
 
                         <div className="col-4 text-end d-none d-lg-block" style={{ position: 'absolute', top: '160px', left: '1040px' }}>
@@ -53,9 +56,7 @@ export default function Home() {
                             <br />
                         </div>
                     </div>
-                    <div className={styles.coolLinkContainer}>
-                        <Link href="/profile/page" className={styles.coolLink}>Future available projects</Link>
-                    </div>
+
                 </div>
             </section>
 
@@ -127,18 +128,17 @@ export default function Home() {
                                 <p style={{ color: 'white', fontSize: '18px', marginTop: '20px' }}> </p>
                                 <br />
                                 <br />
-
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div style={{ marginLeft: '150px' }}>
-                                <Image src="/images/nftmarco.png" alt='abajo' width={356} height={356} />
-                            </div>
+                            <div className={styles.carbonTokenImage} style={{
+                                marginLeft: '115px' // Ajusta el margen izquierdo para mover a la derecha
+                            }}></div>
                             <div>
                                 <a href="https://studio.metaplex.com/project/carbonzero--early-adopter" className={styles.buttonBuy} style={{
                                     position: 'absolute', // Agrega posición relativa
                                     marginTop: '9px',    // Ajusta el margen superior para mover hacia abajo
-                                    marginLeft: '215px',   // Ajusta el margen izquierdo para mover a la izquierda
+                                    marginLeft: '165px',   // Ajusta el margen izquierdo para mover a la izquierda
                                     backgroundColor: 'white',
                                     color: 'black',
                                     textDecoration: 'none',
