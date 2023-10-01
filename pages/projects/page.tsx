@@ -92,6 +92,7 @@ const ProjectsPage = () => {
 
     return (
         <MainLayout>
+            <section></section>
             <div>
                 <hr style={{ margin: '30px 0' }} />
                 <div className={styles.pageContainer} style={{ marginLeft: '150px' }}>
@@ -207,18 +208,9 @@ const ProjectsPage = () => {
 
                     </div>
                 </div>
-                <section style={{ backgroundColor: 'rgb(35, 37, 41)', color: '#fff', padding: '8px 0', position: 'relative' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', margin: '20px', marginTop: '40px' }}>
-                        <div>
-                            <h2 style={{ marginBottom: '5px' }}>CARBONZERO</h2>
-                            {/* Aquí podrías agregar tus preguntas frecuentes u otro contenido */}
-                        </div>
-                        <div style={{ textAlign: 'right', fontSize: '12px' }}>
-                            © CarbonZero, Inc. All Rights Reserved.
-                        </div>
-                    </div>
-                </section>
+
             </div>
+
         </MainLayout>
     );
 };
