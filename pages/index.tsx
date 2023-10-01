@@ -47,7 +47,7 @@ export default function Home() {
                             <p></p>
                             <p className={styles.smallText}>In a transparent and secure way through the implementation <br /> of blockchain technology.</p><br />
                             <div className={styles.coolLinkContainer}>
-                                <Link href="/profile/page" className={styles.coolLink}>Future available projects</Link>
+                                <Link href="/projects/page" className={styles.coolLink}>Future available projects</Link>
                             </div>
                         </div>
 

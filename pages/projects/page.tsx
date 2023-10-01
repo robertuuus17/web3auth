@@ -95,7 +95,7 @@ const ProjectsPage = () => {
             <section></section>
             <div>
                 <hr style={{ margin: '30px 0' }} />
-                <div className={styles.pageContainer} style={{ marginLeft: '150px' }}>
+                <div className={styles.pageContainer} style={{ marginLeft: '70px' }}>
                     <div className={styles.flexContainer}>
                         <div className={styles.formContainer}>
                             <h1> Future Projects Available</h1>
