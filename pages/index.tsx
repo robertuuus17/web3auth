@@ -184,7 +184,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-12 col-md-12">
-                            <div className={styles.featuresCard} id={styles.feature3}>
+                            <div className={styles.featuresCard2} id={styles.feature3}>
                                 <div className="row" style={{ display: 'flex', height: '100%', alignItems: 'center' }}>
                                     <div className="col-12 col-md-6">
                                         <div style={{ display: 'flex', height: '100%', alignItems: 'center' }}>

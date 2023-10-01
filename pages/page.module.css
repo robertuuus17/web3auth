@@ -211,6 +211,9 @@
     /* Ajusta el margen izquierdo según tus preferencias */
 }
 
+.description {
+    color: #ffffffba;
+}
 
 .rectangle {
     width: 1200px;
@@ -398,7 +401,24 @@
 }
 
 .featuresCard img {
-    width: 70px;
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.featuresCard2 {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.featuresCard2 img {
+    width: 230px;
     height: auto;
     margin-bottom: 20px;
 }
